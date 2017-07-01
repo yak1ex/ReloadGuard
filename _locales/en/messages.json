@@ -1,0 +1,46 @@
+{
+  "extDescription": {
+    "message": "Prevent accidental reload/navigation",
+    "description": "Extension description"
+  },
+  "defaults_label": {
+    "message": "URLs for enable by default",
+    "description": "Label for defaults"
+  },
+  "save": {
+    "message": "Save",
+    "description": "Button for save"
+  },
+  "saved_message": {
+    "message": "Options saved",
+    "description": "Message shown on option save"
+  },
+  "filtered_message": {
+    "message": "Options saved with adjustment",
+    "description": "Message shown on option save with adjustment"
+  },
+  "lock_label": {
+    "message": "Lock",
+    "description": "Menu item: Lock"
+  },
+  "default_label": {
+    "message": "Add default",
+    "description": "Menu item: Add default"
+  },
+  "options_label": {
+    "message": "Options...",
+    "description": "Menu item: Options"
+  },
+  "already_added": {
+    "message": "Already added",
+    "description": "Message shown on duplicated addition"
+  },
+  "added": {
+    "message": "Added",
+    "description": "Message shown on addition"
+  },
+  "invalid": {
+    "message": "Invalid on this page",
+    "description": "Message shown on invalid page"
+  }
+}

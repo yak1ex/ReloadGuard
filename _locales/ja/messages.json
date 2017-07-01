@@ -1,0 +1,46 @@
+{
+  "extDescription": {
+    "message": "意図しないリロードやページ遷移を抑止",
+    "description": "拡張機能の説明"
+  },
+  "defaults_label": {
+    "message": "デフォルト有効URL",
+    "description": "デフォルト設定用領域ラベル"
+  },
+  "save": {
+    "message": "保存",
+    "description": "設定保存用ボタン"
+  },
+  "saved_message": {
+    "message": "設定を保存しました",
+    "description": "設定保存時のメッセージ"
+  },
+  "filtered_message": {
+    "message": "設定を保存しました（一部修正あり）",
+    "description": "設定保存時のメッセージ（修正あり）"
+  },
+  "lock_label": {
+    "message": "ロック",
+    "description": "メニュー項目：ロック"
+  },
+  "default_label": {
+    "message": "デフォルト有効に追加",
+    "description": "メニュー項目：デフォルト設定"
+  },
+  "options_label": {
+    "message": "設定...",
+    "description": "メニュー項目：設定"
+  },
+  "already_added": {
+    "message": "既に追加済みです",
+    "description": "重複追加時のメッセージ"
+  },
+  "added": {
+    "message": "追加しました",
+    "description": "追加時のメッセージ"
+  },
+  "invalid": {
+    "message": "このページでは無効です",
+    "description": "無効ページ時のメッセージ"
+  }
+}

@@ -1,0 +1,34 @@
+<html>
+<head>
+<style>
+p.arrow {
+  width: 40px; height: 40px; font-family: "MS Mincho"; font-size: 32px; font-weight: 600; transform: scaleY(1.3) rotate(90deg) translateX(1em);
+  text-shadow: 2px -2px 3px #ccc;
+}
+p.bar {
+  color: #f00; font-weight: 900; font-size: 24px; text-shadow: 2px -2px 1px #ddd;
+  position: relative;
+  top: -40px; left: 10px;
+}
+#bar2 { z-index: -1; color: #ddd; }
+#sbar1 { position: absolute; left: 15px; top: 38px; }
+#bar1 { visibility: hidden; }
+#bar2 { visibility: hidden; }
+#sbar2 { z-index: -1; position: absolute; left: 15px; top: 178px; }
+</style>
+</head>
+<body>
+<p id="arrow1" class="arrow">↻</p>
+<p id="bar1" class="bar">／</p>
+<p id="arrow2" class="arrow">↻</p>
+<p id="bar2" class="bar">／</p>
+<svg id="sbar1" width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<line x1="5" y1="29" x2="29" y2="5" stroke-width="8" stroke-opacity="0.5" stroke-linecap="round" stroke="#fcc"/>
+<line x1="4" y1="28" x2="28" y2="4" stroke-width="3" stroke-linecap="round" stroke="red"/>
+</svg>
+<svg id="sbar2" width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<line x1="5" y1="29" x2="29" y2="5" stroke-width="8" stroke-opacity="0.5" stroke-linecap="round" stroke="#ccc"/>
+<line x1="4" y1="28" x2="28" y2="4" stroke-width="3" stroke-linecap="round" stroke="#ccc"/>
+</svg>
+<body>
+</html>

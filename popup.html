@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { margin: 0; }
+table { border-spacing: 0px; white-space: nowrap; margin: 0.4em; }
+.menuitem:hover { background-color: #ccc; cursor: pointer; }
+#locked { visibility:hidden; }
+#locked.locked { visibility:visible }
+#default_label { width: 10em; float:left; }
+#status { width: 100%; height: 1.5em; border-style: inset; border-width: 3px; margin: 0.5em 0.1em 0.1em; background-color: #eee; padding: 0 0.1em; }
+</style>
+</head>
+<body>
+<table id="menu">
+<tr class="menuitem" id="lock"><td><span id="locked">&#x2714;</span></td><td id="lock_label">Lock</td></tr>
+<tr class="menuitem" id="default"><td></td><td id="default_label">Add default</tr>
+<tr class="menuitem" id="options"><td></td><td id="options_label">Options...</td></tr>
+</table>
+<div id="status"></div>
+<script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "ReloadGuard",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "__MSG_extDescription__",
+  "author": "yak_ex",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": ["*://*/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["guard.js"],
+    "persistent": false
+  },
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+  "permissions": [
+    "activeTab", "tabs", "storage"
+  ],
+  "default_locale": "en"
+}
